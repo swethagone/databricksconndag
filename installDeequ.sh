@@ -1,8 +1,8 @@
 #!/bin/bash
-wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
-tar -xvf apache-maven-3.8.6-bin.tar.gz
-sudo mv apache-maven-3.8.6 /opt/
-PATH="/opt/apache-maven-3.8.6/bin:$PATH"
+wget https://dlcdn.apache.org/maven/maven-3/3.8.7/binaries/apache-maven-3.8.7-bin.tar.gz
+tar -xvf apache-maven-3.8.7-bin.tar.gz
+sudo mv apache-maven-3.8.7 /opt/
+PATH="/opt/apache-maven-3.8.7/bin:$PATH"
 export PATH
 
 mvn dependency:get -Dartifact=com.amazon.deequ:deequ:2.0.1-spark-3.2
